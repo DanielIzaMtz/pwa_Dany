@@ -8,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   container: HTMLElement | null;
   coffees = [
-    { name: "Expresso", image: "../../../assets/images/coffee1.jpg" },
-    { name: "Turco", image: "../../../assets/images/coffee2.jpg" },
-    { name: "Moka", image: "../../../assets/images/coffee3.jpg" },
-    { name: "Latte", image: "../../../assets/images/coffee4.jpg" },
-    { name: "Con Leche", image: "../../../assets/images/coffee5.jpeg" },
-    { name: "Capuchino", image: "../../../assets/images/coffee6.jpeg" },
-    { name: "Americano", image: "../../../assets/images/coffee7.jpeg" },
-    { name: "Irlandes", image: "../../../assets/images/coffee8.jpg" },
-    { name: "De Olla", image: "../../../assets/images/coffee9.jpg" }
+    { name: "Brownies", image: "../../../assets/images/brownies.jpg" },
+    { name: "Churros", image: "../../../assets/images/churros.jpeg" },
+    { name: "Crepas", image: "../../../assets/images/crepas.jpg" },
+    { name: "Flan", image: "../../../assets/images/flan.jpg" },
+    { name: "Fresas Con Crema", image: "../../../assets/images/fresas.jpg" },
+    { name: "Gelatina", image: "../../../assets/images/gelatina.jpg" },
+    { name: "Helado", image: "../../../assets/images/helado.jpg" },
+    { name: "Pay De Limon", image: "../../../assets/images/limon.jpg" },
+    { name: "Uvas Con Crema", image: "../../../assets/images/uvas.jpg" }
   ];
 
   constructor() {
